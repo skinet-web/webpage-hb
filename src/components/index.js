@@ -3,6 +3,7 @@ import Stats from "./Stats";
 import Hero from "./Hero";
 import Business from "./Business";
 import Billing from './Billing'
+import CardDeal from './CardDeal'
 
 export {
   Navbar,
@@ -10,4 +11,5 @@ export {
   Hero,
   Business,
   Billing,
+  CardDeal,
 };
