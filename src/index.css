@@ -138,3 +138,21 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+.clients:hover {
+  background-color: white;
+  z-index: 0;
+
+  border-radius: 20px;
+  opacity: 0.5;
+  animation: fade-in 1s forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
