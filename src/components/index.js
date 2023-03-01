@@ -6,6 +6,7 @@ import Billing from './Billing'
 import CardDeal from './CardDeal'
 import Testimonials from './Testimonials'
 import Clients from "./Clients";
+import Popup from './Popup'
 
 export {
   Navbar,
@@ -15,5 +16,6 @@ export {
   Billing,
   CardDeal,
   Testimonials,
-  Clients
+  Clients,
+  Popup
 };

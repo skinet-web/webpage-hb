@@ -1,9 +1,9 @@
 import styles from '../style';
 import {arrowUp} from '../assets'
 
-const GetStarted = () => {
+const GetStarted = ({buttonClick}) => {
   return (
-    <div className={`${styles.flexCenter} w-[140px] h-[140px]
+    <div onClick= {buttonClick} className={`${styles.flexCenter} w-[140px] h-[140px]
      p-[2px] cursor-pointer rounded-full bg-blue-gradient` }>
         <div className={`${styles.flexCenter} flex-col
         bg-primary w-[100%] h-[100%] rounded-full`}>

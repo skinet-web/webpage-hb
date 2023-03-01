@@ -3,7 +3,7 @@ import styles from '../style';
 import { discount, robot } from '../assets';
 import GetStarted from './GetStarted';
 
-const Hero = () => (
+const Hero = ({buttonClick}) => (
   <section id='home' className={`flex md:flex-row flex-col ${styles.paddingY}`}>
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
       <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient
@@ -24,7 +24,7 @@ const Hero = () => (
           <span className='text-gradient'>Generation</span> {''}          
         </h1>
         <div className='ss:flex hidden md:mr-4 mr-0'>
-          <GetStarted />
+          <GetStarted buttonClick={buttonClick}/>
         </div>
       </div>
 
@@ -50,7 +50,7 @@ const Hero = () => (
       h-[50%] right-20 bottom-20 blue__gradient'></div>
 
       <div className={`ss:hidden ${styles.flexCenter}`}>
-        <GetStarted />
+        <GetStarted buttonClick={buttonClick}/>
       </div>
     </div>
   </section>
