@@ -1,4 +1,19 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -193,5 +208,24 @@ export const clients = [
   {
     id: "client-4",
     logo: dropbox,
+  },
+];
+
+export const priceList = [
+  {
+    id: "price-1",
+    price: 20.99,
+  },
+  {
+    id: "price-2",
+    price: 40.99,
+  },
+  {
+    id: "price-3",
+    price: 60.99,
+  },
+  {
+    id: "price-4",
+    price: 80.99,
   },
 ];
