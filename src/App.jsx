@@ -7,8 +7,7 @@ const App = () => {
   const [showPopup, setShowPopup] = useState(false);
   
   const handleBillingButtonClick = () => {
-    console.log(showPopup)
-    
+    console.log(showPopup)    
     setShowPopup((prev) => !prev);
     
   };
@@ -31,9 +30,9 @@ const App = () => {
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}` } >
         <Stats />   
-        <Business />     
+        <Business buttonClick={handleBillingButtonClick}/>     
         <Billing />
-        <CardDeal />
+        <CardDeal buttonClick={handleBillingButtonClick}/>
         <Testimonials />
         <Clients />
         

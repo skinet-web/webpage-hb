@@ -3,7 +3,7 @@ import { card } from '../assets'
 import Button from './Button'
 import styles, {layout} from '../style'
 
-const CardDeal = () => {
+const CardDeal = ({buttonClick}) => {
   return (
     <section className={layout.section}>
         <div className={layout.sectionInfo}>
@@ -15,7 +15,7 @@ const CardDeal = () => {
             Arcu tortor, purus in mattis at sed integer faucibus. 
             Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
             </p>
-            <Button styles='mt-10'/>
+            <Button buttonClick={buttonClick} styles='mt-10'/>
 
         </div>
         <div className={`flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`}>

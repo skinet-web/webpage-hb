@@ -14,3 +14,4 @@ Project details:
 
 - React JS
 - Tailwind CSS
+- Framer Motion

@@ -19,7 +19,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
     </div>
 )
 
-const Business = () => {
+const Business = ({buttonClick}) => {
   return (
     <section id='features' className={layout.section}>
         <div className={layout.sectionInfo}>
@@ -31,7 +31,7 @@ const Business = () => {
             financial life by building credit, earning rewards and 
             saving money. But with hundreds of credit cards on the market.
             </p>
-            <Button styles='mt-10'/>
+            <Button buttonClick={buttonClick} styles='mt-10'/>
 
         </div>
         <div className={`${layout.sectionImg} flex-col`}>
