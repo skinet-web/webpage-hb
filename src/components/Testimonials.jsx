@@ -2,7 +2,7 @@ import React from 'react'
 import styles, {layout} from '../style'
 import FeedbackCard from './FeedbackCard'
 import {feedback} from '../constants'
-import Clients from './Clients'
+
 
 
 const Testimonials = () => {
