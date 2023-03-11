@@ -13,7 +13,7 @@ const GetStarted = ({buttonClick}) => {
         repeatType: "mirror",
       }}>
     <div onClick= {buttonClick} className={`${styles.flexCenter} w-[140px] h-[140px]
-     p-[2px] cursor-pointer rounded-full bg-blue-gradient` }>
+     p-[2px] cursor-pointer rounded-full bg-blue-gradient z-2` }>
         
             <div className={`${styles.flexCenter} flex-col
             bg-primary w-[100%] h-[100%] rounded-full`}>
